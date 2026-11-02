@@ -17,5 +17,12 @@
   "private": true,
   "devDependencies": {
     "typescript": "7.0.2"
+  },
+  "expo": {
+    "install": {
+      "exclude": [
+        "typescript"
+      ]
+    }
   }
 }
